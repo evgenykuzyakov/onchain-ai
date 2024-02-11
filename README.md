@@ -43,7 +43,7 @@ Potential response:
 ### JSON request
 
 You can use JSON Schema to restrict the response into a JSON format (have to escaped into a string).
-Make sure to include word `json` (case-insensitive) into the system prompt to avoid an error.
+If you provide a system prompt, make sure to include word `json` (case-insensitive) to avoid an error.
 ```json
 {
   "type": "object",
