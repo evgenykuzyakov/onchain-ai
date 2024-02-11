@@ -97,10 +97,11 @@ OPENAI_API_KEY=""
 
 Optional .env variables:
 ```
-NEAR_NETWORK_ID="https://rpc.testnet.near.org"
+NEAR_NODE_URL="https://rpc.testnet.near.org"
 OPENAI_BASE_URL="https://api.endpoints.anyscale.com/v1"
 OPENAI_MODEL="mistralai/Mixtral-8x7B-Instruct-v0.1"
 OPENAI_SYSTEM_PROMPT="You are a helpful assistant."
+OPENAI_SYSTEM_PROMPT_JSON="You are a helpful assistant that outputs in JSON."
 ```
 
 - Run the bot
