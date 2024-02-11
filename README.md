@@ -2,8 +2,9 @@
 
 ## How to use on mainnet
 
-The contract is deployed at `gpt4.near`.
-The cost per request is `0.01` NEAR.
+- The contract is deployed at `gpt4.near`.
+- The cost per request is `0.01` NEAR.
+- Minimum required gas is `100` TGas.
 
 API:
 
