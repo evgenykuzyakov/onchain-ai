@@ -1,0 +1,13 @@
+target
+.env
+Cargo.lock
+neardev
+contract\/res\/local.wasm
+
+
+node_modules
+yarn\.lock
+yarn\-error\.log
+keys
+logs
+state/

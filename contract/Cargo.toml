@@ -1,0 +1,25 @@
+[package]
+name = "contract"
+version = "0.1.0"
+authors = ["Eugene The Dream"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+near-sdk = "5.0.0-alpha.2"
+near-contract-standards = "5.0.0-alpha.2"
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true
+
+[workspace]
+members = []
